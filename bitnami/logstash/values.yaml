@@ -164,7 +164,7 @@ nodeSelector: {}
 ## Tolerations for pod assignment. Evaluated as a template.
 ## ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
 ##
-tolerations: {}
+tolerations: []
 
 ## Pod priority
 ## ref: https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/

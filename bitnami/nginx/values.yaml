@@ -133,7 +133,7 @@ nodeSelector: {}
 ## Tolerations for pod assignment. Evaluated as a template.
 ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
 ##
-tolerations: {}
+tolerations: []
 
 ## NGINX containers' resource requests and limits
 ## ref: http://kubernetes.io/docs/user-guide/compute-resources/

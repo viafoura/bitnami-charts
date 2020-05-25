@@ -70,7 +70,7 @@ nodeSelector: {}
 ## Tolerations for pod assignment. Evaluated as a template.
 ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
 ##
-tolerations: {}
+tolerations: []
 
 ## Get the server static content from a git repository
 ##

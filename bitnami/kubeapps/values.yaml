@@ -166,7 +166,7 @@ frontend:
   ## Tolerations for pod assignment. Evaluated as a template.
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
   ## Use access_token as the Bearer when talking to the k8s api server
   ## Some K8s distributions such as GKE requires it
   ##
@@ -251,7 +251,7 @@ apprepository:
   ## Tolerations for pod assignment. Evaluated as a template.
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
 
 ## Hooks are used to perform actions like populating apprepositories
 ## or creating required resources during installation or upgrade
@@ -275,7 +275,7 @@ hooks:
   ## Tolerations for hooks' pods assignment. Evaluated as a template.
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
 
 # Kubeops is an interface between the Kubeapps Dashboard and Helm 3/Kubernetes.
 # Set useHelm3 to true to use Kubeops instead of Tiller Proxy.
@@ -388,7 +388,7 @@ tillerProxy:
   ## Tolerations for Tiller Proxy pods assignment. Evaluated as a template.
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
 
 ## Assetsvc is used to serve assets metadata over a REST API.
 ##
@@ -446,7 +446,7 @@ assetsvc:
   ## Tolerations for Assetsvc pods assignment. Evaluated as a template.
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
 
 ## Dashboard serves the compiled static React frontend application. This is an
 ## internal service used by the main frontend reverse-proxy and should not be
@@ -506,7 +506,7 @@ dashboard:
   ## Tolerations for Dashboard pods assignment. Evaluated as a template.
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
 
 ## MongoDB chart configuration
 ## ref: https://github.com/bitnami/charts/blob/master/bitnami/mongodb/values.yaml

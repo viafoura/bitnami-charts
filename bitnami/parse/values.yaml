@@ -173,7 +173,7 @@ server:
   ## Tolerations for pod assignment. Evaluated as a template
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
 
 dashboard:
   ## Enable deployment of Parse Dashboard
@@ -258,7 +258,7 @@ dashboard:
   ## Tolerations for pod assignment. Evaluated as a template
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
 
   ## Protocol to form URLs to Parse
   ##

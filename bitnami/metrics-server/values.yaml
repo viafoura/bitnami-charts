@@ -92,7 +92,7 @@ nodeSelector: {}
 ## Tolerations for pod assignment. Evaluated as a template.
 ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
 ##
-tolerations: {}
+tolerations: []
 
 ##  Metrics Server K8s svc properties
 ##

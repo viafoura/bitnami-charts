@@ -164,7 +164,7 @@ influxdb:
   ## Tolerations for pod assignment. Evaluated as a template.
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
 
   ## K8s Security Context for InfluxDB pods
   ## https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
@@ -324,7 +324,7 @@ relay:
   ## Tolerations for pod assignment. Evaluated as a template.
   ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
-  tolerations: {}
+  tolerations: []
 
   ## K8s Security Context for InfluxDB pods
   ## https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
